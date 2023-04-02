@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  margin-left: 1%;
 }
 
 html {
@@ -12,5 +13,25 @@ body {
 }
 
 h1 {
-  background-color: aqua;
+  background-color: turquoise;
+  margin: 3em, 2em, 2em, 3em;
+  text-align: center;
+}
+
+ul,
+.nav {
+  text-align: center;
+  list-style: none;
+}
+
+p1 {
+  border: solid black;
+  text-align: center;
+  border-style: dotted;
+  float: left;
+  background-color: blue;
+}
+
+footer {
+  margin-bottom: 1%;
 }
